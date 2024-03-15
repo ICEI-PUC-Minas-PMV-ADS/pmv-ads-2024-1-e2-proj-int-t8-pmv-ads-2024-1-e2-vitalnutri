@@ -25,22 +25,10 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Em um estudo do DovePress Journal (ACHARYA et al; 2009), que tinha como objetivo descrever a adesão de pacientes a múltiplos componentes, entre eles automonitoramento de comportamentos alimentares e de exercícios, concluiu que houve declínio na adesão a cada componente do tratamento à medida que a intensidade da intervenção foi reduzida.  Dessa forma, fica evidente um grande entrave relacionado a aderência de comportamento alimentar e físico saudável pelas pessoas.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público-alvo desta destina-se a nutricionistas e educadores físicos que desejam oferecer acompanhamento nutricional e treinos personalizados e a parcela da população composta por homens e mulheres com idade superior a 18 anos, que estejam no mercado de trabalho e desejam melhorar a qualidade de vida, saúde física e mental ou características físicas, tanto a curto quanto a longo prazo, abarcando tanto a esfera estética quanto a perspectiva de saúde. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Nesse contexto, a solução proposta visa trazer leveza no processo de acompanhamento dos treinos e plano alimentar de todos aqueles que possuem dificuldade nesse quesito, através de uma aplicação que motive o paciente com mecanismo de recompensa. Outrossim, vale destacar que a solução visa aumentar à aderência dos pacientes nos planos estabelecidos. 
