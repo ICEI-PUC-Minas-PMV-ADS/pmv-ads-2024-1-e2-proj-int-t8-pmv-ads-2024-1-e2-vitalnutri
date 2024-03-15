@@ -1,23 +1,23 @@
-# TÍTULO DO PROJETO
+# VITAL  NUTRIL
 
-`CURSO`
+`Análise e Desenvolimento de Sistema - PUC Minas`
 
-`DISCIPLINA`
+`Desenvolivmento de aplicação web back-end`
 
-`SEMESTRE`
+`1° Semestre/2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Vital Nutri é um sistema que promove uma rotina saudável, permitindo check-ins para refeições e treinos. Ele oferece recompensas aos usuários, tornando a jornada de bem-estar mais leve e motivadora, enquanto também serve como uma ferramenta de controle para nutricionistas e personal trainers.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Fagner Oliveira Passos
+* Gabriela Almeida dos Reis
+* Leonidas Felipe Soares Oliveira
+* Mayara da Rocha Pinheiro
 
 ## Orientador
 
-* Nome completo do professor 1
+* Neil Paiva Tizzo
 
 ## Instruções de utilização
 
