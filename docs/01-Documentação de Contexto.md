@@ -9,11 +9,6 @@ Nesse sentido, o intuito deste projeto é desenvolver um mecanismo tecnológico 
 ## Problema
 Conforme exposto, o problema que se busca resolver é a dificuldade de manutenção da dieta e treino pelo paciente, bem como o monitoramento pelo nutricionista durante o período entre consultas e o acompanhamento de treinos pelo educador físico.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 O objetivo geral deste trabalho é a criação de uma aplicação web que funcione como ponte entre profissionais de nutrição, educador físico e paciente, de modo a viabilizar o monitoramento e a interação entre consultas, bem como a motivação do paciente. Como objetivos específicos, podemos ressaltar:
