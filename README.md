@@ -2,11 +2,11 @@
 
 `Análise e Desenvolimento de Sistema - PUC Minas`
 
-`Desenvolivmento de aplicação web back-end`
+`Desenvolivmento de aplicação interativa
 
-`1° Semestre/2024`
+`2° Semestre/2024`
 
-Vital Nutri é um sistema que promove uma rotina saudável, permitindo check-ins para refeições e treinos. Ele oferece recompensas aos usuários, tornando a jornada de bem-estar mais leve e motivadora, enquanto também serve como uma ferramenta de controle para nutricionistas e personal trainers.
+Vital Nutri é um sistema que viabiliza uma rotina saudável, permitindo check-ins para refeições e treinos. Ele oferece recompensas aos usuários, tornando a jornada de bem-estar mais leve e motivadora, enquanto também serve como uma ferramenta de controle para nutricionistas e personal trainers.
 
 ## Integrantes
 
