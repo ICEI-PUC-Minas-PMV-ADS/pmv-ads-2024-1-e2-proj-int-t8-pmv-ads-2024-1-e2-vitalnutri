@@ -17,9 +17,6 @@ O objetivo geral deste trabalho é a criação de uma aplicação web que funcio
 * Registrar refeições e treinos diários;
 * Obter feedback dos profissionais;
 * Estabelecer mecanismo de recompensa a cada tarefa diária cumprida pelo paciente.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
