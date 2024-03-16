@@ -1,13 +1,13 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Diante de uma maior atenção que tem se dado à importância do fator alimentação e atividade física, tanto na busca de uma vida mais saudável quanto por questões estéticas, o acompanhamento profissional mostra-se importante para auxiliar no processo de mudança de hábitos.
+
+Entretanto, uma das dificuldades que se apresenta com recorrência é a manutenção da disciplina após as consultas, principalmente no processo inicial de reeducação. A pergunta que se apresenta é “Como garantir o comprometimento dos pacientes com o planejamento?”.
+
+Nesse sentido, o intuito deste projeto é desenvolver um mecanismo tecnológico que possa dar suporte ao paciente no dia a dia, de modo a motivá-lo para mudança de hábitos, viabilizando o atingimento dos objetivos estabelecidos junto aos profissionais.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Conforme exposto, o problema que se busca resolver é a dificuldade de manutenção da dieta e treino pelo paciente, bem como o monitoramento pelo nutricionista durante o período entre consultas e o acompanhamento de treinos pelo educador físico.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -16,9 +16,12 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é a criação de uma aplicação web que funcione como ponte entre profissionais de nutrição, educador físico e paciente, de modo a viabilizar o monitoramento e a interação entre consultas, bem como a motivação do paciente. Como objetivos específicos, podemos ressaltar:
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+* Consultar plano de treino e alimentar;
+* Registrar refeições e treinos diários;
+* Obter feedback dos profissionais;
+* Estabelecer mecanismo de recompensa a cada tarefa diária cumprida pelo paciente.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
