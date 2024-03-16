@@ -99,5 +99,6 @@ A iamagem abaixo representa o Diagrama de Casos de Uso realizado através Ludid 
 </figure>
 
 <br>
+<br>
 
 Link de acesso: https://lucid.app/lucidchart/03e6e25e-01e1-41c8-8800-5fa6b47b09b5/edit?viewport_loc=59%2C157%2C1981%2C911%2C.Q4MUjXso07N&invitationId=inv_d754d0de-04cd-4802-811b-c6a6f4dcb956
