@@ -91,9 +91,11 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-A figura abaixo representa o Diagrama de Casos de Uso realizado através Ludid App com o objetivo de elucidar as principais funcionalidades da aplicação.
+A iamagem abaixo representa o Diagrama de Casos de Uso realizado através Ludid App com o objetivo de elucidar as principais funcionalidades da aplicação.
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/Diagrama%20de%20Caso%20de%20Uso.PNG"
     <figcaption> Figura 1 - Diagrama de Casos de Uso</figcaption>
 </figure>
+
+Link de acesso: https://lucid.app/lucidchart/03e6e25e-01e1-41c8-8800-5fa6b47b09b5/edit?viewport_loc=59%2C157%2C1981%2C911%2C.Q4MUjXso07N&invitationId=inv_d754d0de-04cd-4802-811b-c6a6f4dcb956
