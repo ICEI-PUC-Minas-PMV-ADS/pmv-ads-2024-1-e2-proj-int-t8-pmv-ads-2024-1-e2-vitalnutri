@@ -92,9 +92,9 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser compatível com os principais navegadores de mercado (Google Chrome, Microsoft Edge, Firefox e Opera);  | Alta | 
-|RNF-002| A aplicação deve ser responsiva e permitir a visualização em computadores, tablets e dispositivos móveis.  |  Alta | 
-|RNF-003| A aplicação deve ser publicada em um ambiente acessível público na Internet.   |  Média | 
+|RNF-001| A aplicação deve ser compatível com os principais navegadores de mercado (Google Chrome, Microsoft Edge, Firefox e Opera)   | Alta | 
+|RNF-002| A aplicação deve ser responsiva e permitir a visualização em computadores, tablets e dispositivos móveis   |  Alta | 
+|RNF-003| A aplicação deve ser publicada em um ambiente acessível público na Internet   | Alta | 
 |RNF-004| A plataforma deve ser desenvolvida utilizando tecnologias em seu estado primitivo, como HTML, CSS e Javascript para fins acadêmicos   |  Alta | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
