@@ -2,7 +2,7 @@
 
 `Análise e Desenvolimento de Sistema - PUC Minas`
 
-`Desenvolivmento de aplicação interativa
+`Desenvolivmento de aplicação interativa`
 
 `2° Semestre/2024`
 
