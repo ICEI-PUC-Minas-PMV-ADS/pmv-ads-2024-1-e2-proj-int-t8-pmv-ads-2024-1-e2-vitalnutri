@@ -1,26 +1,20 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários, conforme abaixo. 
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+- Camila Souza, aos 29 anos, graduada em Comunicação e imersa na dinâmica comercial de uma empresa multinacional, atualmente busca equilíbrio entre crescimento profissional e vida pessoal. Com uma pós-graduação em Gestão Comercial em curso, ela encontra prazer em explorar novos destinos e apreciar a sutileza dos vinhos. Contudo, enfrenta desafios como insônia devido ao volume de trabalho, preocupações com sua saúde física e mental, e dificuldades em manter hábitos alimentares e de exercício saudáveis, revelando uma busca por mudança e bem-estar integral.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+- Rosana Alves, 38 anos, nutricionista com 14 anos de experiência e especialização em nutrição esportiva. Oferece consultas online e presenciais, buscando ajudar os outros e encontrar satisfação profissional. Seus desafios incluem lidar com a pressão por resultados rápidos e o acompanhamento individualizado dos pacientes. Nas horas vagas, gosta de praticar atividades físicas, ler e fazer passeios ao ar livre.
+
+
+- Luan Pereira, 21 anos, estudante de Engenharia Civil no 5º período, estagia em uma construtora. Além dos estudos, dedica-se ao inglês e ao Autocad. Busca formação profissional, segurança, bem-estar e estabilidade financeira. Suas frustrações incluem estar abaixo do peso, indisposição e negligência com a saúde.
+
+
+- Amara Luci Godin, aos 24 anos, é uma personal trainer recém-formada em Educação Física e atualmente cursando uma pós-graduação em Fisiologia do Exercício. Sua motivação inclui a busca por qualidade de vida, realização profissional e contribuição social. No entanto, enfrenta frustrações com pacientes que não seguem os treinos, dificuldade dos alunos em manter constância e falta de conciliação entre dieta e exercícios. Apesar dos desafios, está determinada a ajudar seus alunos a alcançarem uma vida mais saudável e ativa.
+
 
 ## Histórias de Usuários
 
@@ -51,8 +45,14 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA | 
-|RF-002| A aplicação deve emitir um relatório de tarefas realizadas no mês   | MÉDIA |
+|RF-001| A aplicação deve permitir aos usuários a realização de cadastro de acordo com o perfil (Paciente, nutricionista ou educador físico)  | ALTA | 
+|RF-002| A aplicação deve permitir o acesso de usuários por meio do login e senha cadastradas    | ALTA |
+|RF-003| A aplicação deve permitir ao nutricionista inserir, modificar e excluir um plano alimentar no prontuário do paciente | ALTA |
+|RF-004| A aplicação deve possibilitar ao educador físico inserir, modificar e excluir o treinamento individual personalizado no prontuário do paciente.   | ALTA |
+|RF-005| A aplicação deve permitir ao usuário consultar os planos cadastrados pelos profissionais no seu prontuário (dieta e treino)   | ALTA |
+|RF-006| A aplicação deve possibilitar o registro das refeições e trenos realizadas pelo paciente   | ALTA |
+|RF-007| A aplicação deve possibilitar o registro das refeições realizadas pelo paciente   | ALTA |
+|RF-008| A aplicação deve permitir ao nutricionista consultar as refeições registradas pelo paciente   | ALTA |
 
 ### Requisitos não Funcionais
 
