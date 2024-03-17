@@ -4,17 +4,37 @@ Os detalhes levantados nesse processo foram consolidados na forma de personas e 
 
 ## Personas
 
-- Camila Souza, aos 29 anos, graduada em Comunicação e imersa na dinâmica comercial de uma empresa multinacional, atualmente busca equilíbrio entre crescimento profissional e vida pessoal. Com uma pós-graduação em Gestão Comercial em curso, ela encontra prazer em explorar novos destinos e apreciar a sutileza dos vinhos. Contudo, enfrenta desafios como insônia devido ao volume de trabalho, preocupações com sua saúde física e mental, e dificuldades em manter hábitos alimentares e de exercício saudáveis, revelando uma busca por mudança e bem-estar integral.
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/camila.jpg" alt="Foto de Camila Souza" style="width: 10%;">
+  <figcaption> Figura 1 - Foto Camila Souza</figcaption>
+</figure>
 
+- Camila Souza, aos 29 anos, graduada em Comunicação e imersa na dinâmica comercial de uma empresa multinacional, atualmente busca equilíbrio entre crescimento profissional e vida pessoal. Com uma pós-graduação em Gestão Comercial em curso, ela encontra prazer em explorar novos destinos e apreciar a sutileza dos vinhos. Contudo, enfrenta desafios como insônia devido ao volume de trabalho, preocupações com sua saúde física e mental, e dificuldades em manter hábitos alimentares e de exercício saudáveis, revelando uma busca por mudança e bem-estar integral.
+<br><br><br>
+
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/rosana.jpg" style="width: 23%;"
+    <figcaption> Figura 2 - Foto Rosana Alves</figcaption>
+</figure>
 
 - Rosana Alves, 38 anos, nutricionista com 14 anos de experiência e especialização em nutrição esportiva. Oferece consultas online e presenciais, buscando ajudar os outros e encontrar satisfação profissional. Seus desafios incluem lidar com a pressão por resultados rápidos e o acompanhamento individualizado dos pacientes. Nas horas vagas, gosta de praticar atividades físicas, ler e fazer passeios ao ar livre.
+<br><br><br>
 
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/luan.jpg" style="width: 23%;"
+    <figcaption> Figura 3 - Foto Luan Pereira</figcaption>
+</figure>
 
 - Luan Pereira, 21 anos, estudante de Engenharia Civil no 5º período, estagia em uma construtora. Além dos estudos, dedica-se ao inglês e ao Autocad. Busca formação profissional, segurança, bem-estar e estabilidade financeira. Suas frustrações incluem estar abaixo do peso, indisposição e negligência com a saúde.
+<br><br><br>
 
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/amara.jpg" style="width: 23%;"
+    <figcaption> Figura 3 - Foto Amara Luci</figcaption>
+</figure>
 
 - Amara Luci Godin, aos 24 anos, é uma personal trainer recém-formada em Educação Física e atualmente cursando uma pós-graduação em Fisiologia do Exercício. Sua motivação inclui a busca por qualidade de vida, realização profissional e contribuição social. No entanto, enfrenta frustrações com pacientes que não seguem os treinos, dificuldade dos alunos em manter constância e falta de conciliação entre dieta e exercícios. Apesar dos desafios, está determinada a ajudar seus alunos a alcançarem uma vida mais saudável e ativa.
-
+<br><br><br>
 
 ## Histórias de Usuários
 
@@ -95,7 +115,7 @@ A imagem abaixo representa o Diagrama de Casos de Uso realizado através Ludid A
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/Diagrama%20de%20Caso%20de%20Uso.PNG"
-    <figcaption> Figura 1 - Diagrama de Casos de Uso</figcaption>
+    <figcaption> Figura 5 - Diagrama de Casos de Uso</figcaption>
 </figure>
 
 <br>
