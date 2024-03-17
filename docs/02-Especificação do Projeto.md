@@ -53,6 +53,18 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-006| A aplicação deve possibilitar o registro das refeições e trenos realizadas pelo paciente   | ALTA |
 |RF-007| A aplicação deve possibilitar o registro das refeições realizadas pelo paciente   | ALTA |
 |RF-008| A aplicação deve permitir ao nutricionista consultar as refeições registradas pelo paciente   | ALTA |
+|RF-009| A aplicação deve permitir ao educador físico consultar os check-ins de treinamento do paciente   | ALTA |
+|RF-010| A aplicação deve possibilitar que os profissionais comentem os registros de refeição ou treino realizados pelos pacientes   | MÉDIA |
+|RF-011| A aplicação deve possibilitar que profissionais reajam aos registros de refeição ou treino realizados pelos pacientes com emojis   | BAIXA |
+|RF-012| A aplicação deve conceder pontuações ao paciente a cada tarefa diária cumprida   | MÉDIA |
+|RF-013| A aplicação deve disponibilizar o cálculo de macronutrientes das refeições do usuário   | MÉDIA |
+|RF-014| A aplicação deve exibir um alerta ou um lembrete quando o usuário não registrar sua refeição ou o seu treino   | MÉDIA |
+|RF-015| A aplicação deve permitir que que os pacientes cadastrem as seguintes informações: peso, altura, sexo, idade e meta de peso   | BAIXA |
+|RF-016| A aplicação deve permitir que os pacientes salvem suas refeições e treinos preferidos   | BAIXA |
+|RF-017| A aplicação deve permitir uma funcionalidade de filtro e pesquisa para as refeições  | BAIXA |
+|RF-018| A aplicação deve exibir notificações para os profissionais quando o paciente fizer o registro de refeições e treinos  | BAIXA |
+|RF-019| A aplicação deve exibir o cálculo do IMC do paciente  | BAIXA |
+
 
 ### Requisitos não Funcionais
 
