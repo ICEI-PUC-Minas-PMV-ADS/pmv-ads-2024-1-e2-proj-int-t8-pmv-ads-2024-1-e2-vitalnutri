@@ -91,7 +91,7 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 
 ## Diagrama de Casos de Uso
 
-A iamagem abaixo representa o Diagrama de Casos de Uso realizado através Ludid App com o objetivo de elucidar as principais funcionalidades da aplicação.
+A imagem abaixo representa o Diagrama de Casos de Uso realizado através Ludid App com o objetivo de elucidar as principais funcionalidades da aplicação.
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/Diagrama%20de%20Caso%20de%20Uso.PNG"
