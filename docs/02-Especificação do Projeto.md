@@ -29,8 +29,16 @@ Os detalhes levantados nesse processo foram consolidados na forma de personas e 
 <br><br><br>
 
 <figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/luan.jpg" style="width: 23%;"
+    <figcaption> Figura 4 - Foto Marcos Silva</figcaption>
+</figure>
+
+- Marcos é um advogado bem-sucedido, de 38 anos, que dedicou grande parte de sua vida ao seu escritório de advocacia. Ele é altamente comprometido com sua carreira e trabalha longas horas todos os dias para garantir o sucesso de seu negócio. No entanto, devido ao seu estilo de vida sedentário e sua rotina agitada, ele enfrenta desafios significativos para manter uma dieta saudável e uma rotina de exercícios regulares.
+
+
+<figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/amara.jpg" style="width: 23%;"
-    <figcaption> Figura 3 - Foto Amara Luci</figcaption>
+    <figcaption> Figura 5 - Foto Amara Luci</figcaption>
 </figure>
 
 - Amara Luci Godin, aos 24 anos, é uma personal trainer recém-formada em Educação Física e atualmente cursando uma pós-graduação em Fisiologia do Exercício. Sua motivação inclui a busca por qualidade de vida, realização profissional e contribuição social. No entanto, enfrenta frustrações com pacientes que não seguem os treinos, dificuldade dos alunos em manter constância e falta de conciliação entre dieta e exercícios. Apesar dos desafios, está determinada a ajudar seus alunos a alcançarem uma vida mais saudável e ativa.
@@ -47,6 +55,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Camila Souza       | Receber recompensas e feedback pelos registros diários                 |Me manter motivada para atingir os objetivos estabelecidos |
 |Luan Pereira       | Consutar Meu IMC                 | Analisar meu desenvolvimento |
 |Luan Pereira       | Salvar minhas refeições e treinos preferidos                 | Facilitar a repetição de registros iguais |
+|Marcos Silva    | Receber lembretes a respeitos do seus horarios de refeição e treinamento                 | Manter o controle da sua rotina saudavel |
+|Marcos Silva       | Receber notificações a respeito de sua evolução               | Servir de reforçador positivo para seu comportamento |
 |Amara Luci       | Registrar o plano de treino dos meus alunos                 | que o aluno possa visualizar e realizar as atividades |
 |Amara Luci       | Acompanhar os check-in dos meus alunos                 | Verificar se ele está seguindo de maneira ordeira o planejamento |
 |Amara Luci       | Tomar ciência sobre a audência de check-in dos meus alunos                 |Alertá-lo e incentiva-lo |
@@ -70,20 +80,21 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-003| A aplicação deve permitir ao nutricionista inserir, modificar e excluir um plano alimentar no prontuário do paciente | ALTA |
 |RF-004| A aplicação deve possibilitar ao educador físico inserir, modificar e excluir o treinamento individual personalizado no prontuário do paciente.   | ALTA |
 |RF-005| A aplicação deve permitir ao usuário consultar os planos cadastrados pelos profissionais no seu prontuário (dieta e treino)   | ALTA |
-|RF-006| A aplicação deve possibilitar o registro das refeições e trenos realizadas pelo paciente   | ALTA |
-|RF-007| A aplicação deve possibilitar o registro das refeições realizadas pelo paciente   | ALTA |
+|RF-006| A aplicação deve possibilitar o registro dos treinos realizadas pelo paciente   | ALTA |
+|RF-007| A aplicação deve possibilitar o registro das refeições, juntamente com uma imagem realizada pelo paciente  | ALTA |
 |RF-008| A aplicação deve permitir ao nutricionista consultar as refeições registradas pelo paciente   | ALTA |
 |RF-009| A aplicação deve permitir ao educador físico consultar os check-ins de treinamento do paciente   | ALTA |
 |RF-010| A aplicação deve possibilitar que os profissionais comentem os registros de refeição ou treino realizados pelos pacientes   | MÉDIA |
 |RF-011| A aplicação deve possibilitar que profissionais reajam aos registros de refeição ou treino realizados pelos pacientes com emojis   | BAIXA |
 |RF-012| A aplicação deve conceder pontuações ao paciente a cada tarefa diária cumprida   | MÉDIA |
 |RF-013| A aplicação deve disponibilizar o cálculo de macronutrientes das refeições do usuário   | MÉDIA |
-|RF-014| A aplicação deve exibir um alerta ou um lembrete quando o usuário não registrar sua refeição ou o seu treino   | MÉDIA |
-|RF-015| A aplicação deve permitir que que os pacientes cadastrem as seguintes informações: peso, altura, sexo, idade e meta de peso   | BAIXA |
+|RF-014| A aplicação deve exibir um alerta ou um lembrete ao paciente sobre suas refeições e treinamento | MÉDIA |
+|RF-015| A aplicação deve permitir que os pacientes cadastrem as seguintes informações: peso, altura, sexo, idade e meta de peso   | ALTA |
 |RF-016| A aplicação deve permitir que os pacientes salvem suas refeições e treinos preferidos   | BAIXA |
 |RF-017| A aplicação deve permitir uma funcionalidade de filtro e pesquisa para as refeições  | BAIXA |
-|RF-018| A aplicação deve exibir notificações para os profissionais quando o paciente fizer o registro de refeições e treinos  | BAIXA |
-|RF-019| A aplicação deve exibir o cálculo do IMC do paciente  | BAIXA |
+|RF-018| A aplicação deve exibir notificações para os profissionais quando o paciente não fizer o registro de refeições e treinos por mais de 14 dias | BAIXA |
+|RF-019| A aplicação deve exibir o cálculo do IMC do paciente  | ALTA |
+|RF-020| A aplicação deve enviar notificações ao paciente a respeito de sua evolução  | MÉDIA |
 
 
 ### Requisitos não Funcionais
@@ -94,8 +105,8 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ser compatível com os principais navegadores de mercado (Google Chrome, Microsoft Edge, Firefox e Opera)   | Alta | 
 |RNF-002| A aplicação deve ser responsiva e permitir a visualização em computadores, tablets e dispositivos móveis   |  Alta | 
-|RNF-003| A aplicação deve ser publicada em um ambiente acessível público na Internet   | Alta | 
-|RNF-004| A plataforma deve ser desenvolvida utilizando tecnologias em seu estado primitivo, como HTML, CSS e Javascript para fins acadêmicos   |  Alta | 
+|RNF-003| A aplicação deve ser publicada em um ambiente acessível público na Internet da microsoft, azure  | Alta | 
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -106,7 +117,7 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |RE-01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 23/06/2024. |
-|RE-02| O aplicativo deve se restringir às tecnologias básicas da Web no Frontend.         |
+|RE-02| A plataforma deve ser desenvolvida utilizando tecnologias em seu estado primitivo, como HTML, CSS, Javascript, C+ e bootstrap para fins acadêmicos |
 |RE-03| A equipe não pode subcontratar o desenvolvimento do trabalho.         |
 
 ## Diagrama de Casos de Uso
