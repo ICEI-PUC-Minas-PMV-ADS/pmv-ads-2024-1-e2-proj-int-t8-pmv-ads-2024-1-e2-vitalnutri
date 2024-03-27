@@ -29,12 +29,10 @@ Os detalhes levantados nesse processo foram consolidados na forma de personas e 
 <br><br><br>
 
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/luan.jpg" style="width: 23%;"
-    <figcaption> Figura 4 - Foto Marcos Silva</figcaption>
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/assets/144800739/d0c5b155-2ccc-4378-bbb5-32d9adf21639" style="width: 23%;"                       <figcaption> Figura 4 - Foto Marcos Silva</figcaption>
 </figure>
 
 - Marcos é um advogado bem-sucedido, de 38 anos, que dedicou grande parte de sua vida ao seu escritório de advocacia. Ele é altamente comprometido com sua carreira e trabalha longas horas todos os dias para garantir o sucesso de seu negócio. No entanto, devido ao seu estilo de vida sedentário e sua rotina agitada, ele enfrenta desafios significativos para manter uma dieta saudável e uma rotina de exercícios regulares.
-
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/amara.jpg" style="width: 23%;"
