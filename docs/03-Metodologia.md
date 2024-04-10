@@ -36,42 +36,49 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 > - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
+A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois como citam Amaral, Fleury e Isoni (2019, p. 68), seus benefícios são a
+
+“visão clara dos resultados a entregar; ritmo e disciplina necessários à execução; definição de papéis e responsabilidades dos integrantes do projeto (Scrum Owner, Scrum Master e Team); empoderamento dos membros da equipe de projetos para atingir o desafio; conhecimento distribuído e compartilhado de forma colaborativa; ambiência favorável para crítica às ideias e não às pessoas.”
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+Desse modo, a equipe se dispõe da sequinte forma:
+- Scrum Master: Leonidas Felipe Soares.
+- Product Owner: Mayara da Rocha Pinheiro.
+- Equipe de Desenvolvimento: Fagner Passos, Leonidas Felipe Soares Oliveira, Mayara da Rocha Pinheiro e Gabriela Almeida dos Reis.
+- Equipe de Design: Gabriela Almeida.
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello (Figura 1), estruturado no estilo Kanban, com as seguintes listas:
 
+![image]()
+
+Figura 1 - Quadro Kanban no Trello.
+
+- Links de Apoio: Lista que contém links de apoio para a equipe durante o desenvolvimento do projeto.
+- Perfis de usuário: Aqui estão listados os perfis de usuário da aplicação, para lembrar a equipe.
+- Backlog priorizado: Todas as atividades identificadas no decorrer do projeto devem ser incorporadas a esta lista. Funciona como Product Backlog. 
+- Sprint: Esta lista representa o Sprint Backlog. Este é o Sprint que a equipe está trabalhando atualmente. 
+- Hoje (Doing): Aqui a equipe seleciona as tarefas que realizarão naquele dia. São tarefas que são puxadas do Sprint 
+- Aprovados (Done): Nesta lista são colocadas as tarefas que foram aprovadas pelo PO como prontas para ser entregues ao cliente. 
+
+### Etiquetas
+
+<p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias da imagem abaixo:</p>
+
+![image]()
+
+Figura 2 - Legenda de etiquetas do quadro kanban
+  
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
-
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+| AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
+|-------------------------------------|------------------------------------|----------------------------------------|
+| Repositório de código fonte         | GitHub                             |   [Código Fonte]()                        |
+| Documentos do projeto               | GitHub                             | [Documentos do projeto]()                           |
+| Projeto de Interface                | Figma                              | [Figma]()                            |
+| Gerenciamento do Projeto            | Trello          | [Trello](https://trello.com/b/EfAOlxv1)              |
+| Hospedagem                          | GitHub Pages                       |   [Vital Nutri]()
