@@ -67,7 +67,8 @@ Figura 1 - Quadro Kanban no Trello.
 
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias da imagem abaixo:</p>
 
-![image]()
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/assets/144800739/b61c54c8-499e-4059-af74-4ec66ddc88d1)
+
 
 Figura 2 - Legenda de etiquetas do quadro kanban
   
