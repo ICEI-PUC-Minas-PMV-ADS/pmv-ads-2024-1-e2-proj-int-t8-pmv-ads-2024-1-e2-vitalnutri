@@ -124,7 +124,7 @@ A imagem abaixo representa o Diagrama de Casos de Uso realizado através Ludid A
 
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/Diagrama%20de%20Caso%20de%20Uso.PNG"
-    <figcaption> Figura 5 - Diagrama de Casos de Uso</figcaption>
+    <figcaption> Figura 6 - Diagrama de Casos de Uso</figcaption>
 </figure>
 
 <br>
