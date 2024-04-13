@@ -55,7 +55,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/assets/144800739/b5e7aa72-2ab6-464a-8a4e-2a1a3024c2bb)
 
 
-Figura 1 - Quadro Kanban no Trello.
+Figura 7 - Quadro Kanban no Trello.
 
 - Links de Apoio: Lista que contém links de apoio para a equipe durante o desenvolvimento do projeto.
 - Perfis de usuário: Aqui estão listados os perfis de usuário da aplicação, para lembrar a equipe.
@@ -71,7 +71,7 @@ Figura 1 - Quadro Kanban no Trello.
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/assets/144800739/b61c54c8-499e-4059-af74-4ec66ddc88d1)
 
 
-Figura 2 - Legenda de etiquetas do quadro kanban
+Figura 8 - Legenda de etiquetas do quadro kanban
   
 ### Ferramentas
 
