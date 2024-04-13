@@ -14,6 +14,9 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
   <figcaption> Figura 9 - Diagrama de Classes </figcaption>
 </figure>
 
+<br>
+<br>
+
 ## Diagramas de Fluxo
 
 <figure> 
@@ -21,10 +24,16 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
   <figcaption> Figura 10 - Fluxograma de cadastro de usuário </figcaption>
 </figure>
 
+<br>
+<br>
+
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/Fluxo%20Funcionalidades.PNG">
   <figcaption> Figura 11 - Fluxograma de cadastro de usuário </figcaption>
 </figure>
+
+<br>
+<br>
 
 ## Wireframes
 
