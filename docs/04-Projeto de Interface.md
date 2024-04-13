@@ -19,6 +19,8 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## Diagramas de Fluxo
 
+
+### Fluxograma de Cadastro de Usuário
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/Fluxo%20Cadastro%20Usu%C3%A1rio.PNG">
   <figcaption> Figura 10 - Fluxograma de cadastro de usuário </figcaption>
@@ -27,6 +29,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 <br>
 <br>
 
+### Fluxograma de Funcionalidades
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/Fluxo%20Funcionalidades.PNG">
   <figcaption> Figura 11 - Fluxograma de cadastro de usuário </figcaption>
