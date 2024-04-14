@@ -27,7 +27,10 @@ A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
 
 O projeto da base de dados corresponde à representação das entidades e relacionamentos identificadas no Modelo ER, no formato de tabelas, com colunas e chaves primárias/estrangeiras necessárias para representar corretamente as restrições de integridade.
  
-Para mais informações, consulte o microfundamento "Modelagem de Dados".
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/vital_nutri_der.png">
+  <figcaption> Diagrama Entidade Relacionamento </figcaption>
+</figure>
 
 ## Tecnologias Utilizadas
 
