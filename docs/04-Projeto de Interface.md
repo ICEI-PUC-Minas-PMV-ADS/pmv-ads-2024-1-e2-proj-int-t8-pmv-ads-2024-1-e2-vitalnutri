@@ -39,13 +39,16 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 <br>
 
 ## Wireframes
-Para visualizar as imagens anexadas é necessário abrir uma nova guia ou fazer o download de cada imagem, pois é preciso aplicar um zoom para visualizar com detalhes cada tela. Abaixo de cada imagem é possível visualizar o wireframe de forma interativa ao clicar no link.
+Para visualizar as imagens anexadas é necessário abrir uma nova guia ou fazer o download de cada imagem, pois é preciso aplicar um zoom para visualizar com detalhes cada tela. Abaixo de cada imagem estão os links dos wireframes de forma interativa.
 
 O modelo abaixo é referente ao Wireframe do Educador Físico.
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/VitalNutri%20-%20Educador%20F%C3%ADsico.png">
   <figcaption> Figura 12 - Wireframe Educador Físico </figcaption>
 </figure>
+
+https://www.figma.com/proto/JV3ep7ofF7vdCgJkeCuiak/VitalNutri---Educador-F%C3%ADsico?type=design&node-id=17-290&t=IlBdA8GCnqmkPEB6-1&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=17%3A290&mode=design
+
 
 
 O modelo abaixo é referente ao Wireframe do Nutricionista.
@@ -54,9 +57,12 @@ O modelo abaixo é referente ao Wireframe do Nutricionista.
   <figcaption> Figura 13 - Wireframe Nutricionista </figcaption>
 </figure>
 
+https://www.figma.com/proto/6V65RVV0Ah6i5LhsGx5yed/VitalNutri---Nutricionista?type=design&t=ze92cOiY7BuE6ujV-0&scaling=min-zoom&page-id=0%3A1&node-id=0-7
 
 O modelo abaixo é referente ao Wireframe do Aluno/Paciente.
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/VitalNutri%20-%20Aluno.png">
   <figcaption> Figura 14 - Wireframe Aluno/Paciente </figcaption>
 </figure>
+
+https://www.figma.com/proto/v5OVJDumAIByOtheGEsDlr/VitalNutri---Aluno?type=design&node-id=70-11&t=qPe5hjSBCaJnSi6z-1&scaling=min-zoom&page-id=0%3A1&mode=design
