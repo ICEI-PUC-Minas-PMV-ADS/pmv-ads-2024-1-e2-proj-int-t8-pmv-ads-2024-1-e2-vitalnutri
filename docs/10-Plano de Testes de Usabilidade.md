@@ -1,49 +1,61 @@
 # Plano de Testes de Usabilidade
 
-Objetivo: Avaliar a usabilidade do aplicativo "Vital Nutri"
+## Objetivo: Avaliar a usabilidade do usuário
 
 Plataforma de Teste: Plataforma de videoconferência remota (por exemplo, Zoom, Google Meet)
 
-Participantes:
+### Participantes:
 
 Serão recrutados 8 participantes, representando o público-alvo do aplicativo (usuários interessados em melhorar sua saúde e forma física, com diferentes níveis de experiência em nutrição e treinamento).
 Métricas de Usabilidade:
 
-Tempo para completar tarefas.
-Taxa de erro.
-Facilidade de aprendizado.
-Satisfação do usuário (medida através de uma escala Likert).
-Tarefas a Serem Realizadas:
+Tempo para completar tarefas.<br>
+Taxa de erro.<br>
+Facilidade de aprendizado.<br>
+Satisfação do usuário (medida através de uma escala Likert).<br>
 
-Criar um perfil no aplicativo, incluindo informações como altura, peso, idade e objetivos de saúde.
-Registrar uma refeição consumida hoje, incluindo todos os seus componentes (alimentos, porções, etc.).
-Adicionar um plano de treinamento semanal ao calendário do aplicativo.
-Encontrar e seguir uma receita saudável para o jantar de hoje.
-Verificar o progresso em direção aos objetivos de saúde definidos no perfil.
-Método de Teste:
+### Tarefas a Serem Realizadas:
 
-Testes individuais conduzidos remotamente, com o participante e o facilitador conectados através da plataforma de videoconferência. O facilitador irá orientar os participantes através das tarefas e registrar observações.
-Cenário do Teste:
+Criar um perfil no aplicativo, incluindo informações como altura, peso, idade e objetivos de saúde;<br>
+Criar um perfil como Nutricionista, incluindo CRN e informações gerais;<br>
+Criar um perfil como Eduardo Físico, incluindo CREF e informações gerais;<br>
+Registrar uma refeição com imagem, e ganhar pontuação;<br>
+Adicionar um plano de treinamentos para seu aluno;<br>
+Adicionar um plano alimentar para seu paciente;<br>
+Verificar check-ins;<br>
+Verificar prontuario, constando dieta e treino.
 
-Você é uma pessoa interessada em melhorar sua saúde e forma física. Imagine que você acabou de baixar o aplicativo "NutriFit" e precisa usá-lo para planejar suas refeições, registrar seu consumo alimentar e acompanhar seus treinamentos.
-Roteiro do Teste:
+### Método de Teste:
 
-Apresentação do teste e consentimento informado.
-Breve questionário demográfico e sobre hábitos de saúde.
-Instruções para a realização das tarefas, compartilhando a tela do facilitador quando necessário.
-Observação e registro do desempenho do participante.
-Entrevista pós-teste para obter feedback sobre a experiência do usuário e sugestões de melhoria.
-Recursos Necessários:
+Testes individuais conduzidos remotamente, com o participante e o facilitador conectados através da plataforma de videoconferência. <br> 
+O facilitador irá orientar os participantes através das tarefas e registrar observações.
 
-Acesso ao aplicativo  (seja através de um computador ou dispositivo móvel).
-Computador ou dispositivo móvel para o participante.
-Computador para o facilitador registrar observações.
-Material para registro (papel e caneta).
-Responsabilidades:
+### Cenário do Teste:
 
-Facilitador: Conduzir os testes, registrar observações e facilitar as entrevistas pós-teste.
-Observadores: Observar os testes através da tela compartilhada e tomar notas adicionais.
+Você é uma pessoas em busca de uma ferramenta que possa melhorar a aderencia do seu paciente a dieta e treinamentos.<br>
+Você é uma pessoa interessada em melhorar sua saúde e forma física. Imagine que você acabou de baixar o aplicativo e precisa usá-lo para visualizar suas refeições, registrar seu consumo alimentar e acompanhar seus treinamentos.
+
+### Roteiro do Teste:
+
+Apresentação do teste e consentimento informado.<br>
+Breve questionário demográfico e sobre hábitos de saúde.<br>
+Instruções para a realização das tarefas, compartilhando a tela do facilitador quando necessário.<br>
+Observação e registro do desempenho do participante.<br>
+Entrevista pós-teste para obter feedback sobre a experiência do usuário e sugestões de melhoria.<br>
+
+### Recursos Necessários:
+
+Acesso ao aplicativo  (seja através de um computador ou dispositivo móvel). <br>
+Computador ou dispositivo móvel para o participante. <br>
+Computador para o facilitador registrar observações.<br>
+Material para registro (papel e caneta).<br>
+
+### Responsabilidades:
+
+Facilitador: Conduzir os testes, registrar observações e facilitar as entrevistas pós-teste. <br>
+Observadores: Observar os testes através da tela compartilhada e tomar notas adicionais. <br>
 Equipe de análise: Analisar os dados coletados e preparar um relatório de resultados.
-Nota Final:
+
+### Nota Final:
 
 Os resultados do teste serão utilizados para identificar problemas de usabilidade e orientar melhorias no design e funcionalidades do aplicativo.
