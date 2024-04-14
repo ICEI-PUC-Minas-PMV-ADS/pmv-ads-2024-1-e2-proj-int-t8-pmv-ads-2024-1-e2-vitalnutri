@@ -39,16 +39,24 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 <br>
 
 ## Wireframes
+Para visualizar as imagens anexadas é necessário abrir uma nova guia ou fazer o download de cada imagem, pois é preciso aplicar um zoom para visualizar com detalhes cada tela. Abaixo de cada imagem é possível visualizar o wireframe de forma interativa ao clicar no link.
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+O modelo abaixo é referente ao Wireframe do Educador Físico.
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/VitalNutri%20-%20Educador%20F%C3%ADsico.png">
+  <figcaption> Figura 12 - Wireframe Educador Físico </figcaption>
+</figure>
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+
+O modelo abaixo é referente ao Wireframe do Nutricionista.
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/VitalNutri%20-%20Nutricionista.png">
+  <figcaption> Figura 13 - Wireframe Nutricionista </figcaption>
+</figure>
+
+
+O modelo abaixo é referente ao Wireframe do Aluno/Paciente.
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/VitalNutri%20-%20Aluno.png">
+  <figcaption> Figura 14 - Wireframe Aluno/Paciente </figcaption>
+</figure>
