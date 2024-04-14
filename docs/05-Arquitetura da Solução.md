@@ -20,11 +20,10 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-Sugestão de ferramentas para geração deste artefato: LucidChart e Draw.io.
-
-A referência abaixo irá auxiliá-lo na geração do artefato “Modelo ER”.
-
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/vital_nutri_der_conceitual.png">
+  <figcaption> Diagrama Conceitual</figcaption>
+</figure>
 
 ## Projeto da Base de Dados
 
@@ -33,6 +32,11 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 <figure> 
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/vital_nutri_der.png">
   <figcaption> Diagrama Entidade Relacionamento </figcaption>
+</figure>
+
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/vital_nutri_der_fk.png">
+  <figcaption> Diagrama Entidade Relacionamento destaque para FK</figcaption>
 </figure>
 
 ## Tecnologias Utilizadas
