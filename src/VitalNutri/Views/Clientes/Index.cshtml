@@ -1,0 +1,89 @@
+﻿@model IEnumerable<VitalNutri.Models.Cliente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Usuario)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nutricionista)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TreinadorPessoal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PossuiAcompanhamentoNutricionista)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PossuiAcompanhamentoPersonal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PossuiPlanoAlimentar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PossuiPlanoTreino)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Peso)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Altura)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MetaPeso)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Usuario.Ativo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nutricionista.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TreinadorPessoal.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PossuiAcompanhamentoNutricionista)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PossuiAcompanhamentoPersonal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PossuiPlanoAlimentar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PossuiPlanoTreino)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Peso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Altura)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MetaPeso)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
