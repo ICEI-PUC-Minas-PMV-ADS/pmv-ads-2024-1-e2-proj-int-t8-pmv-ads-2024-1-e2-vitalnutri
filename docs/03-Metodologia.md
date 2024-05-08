@@ -52,15 +52,16 @@ Desse modo, a equipe se dispõe da sequinte forma:
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello (Figura 1), estruturado no estilo Kanban, com as seguintes listas:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/assets/144800739/b5e7aa72-2ab6-464a-8a4e-2a1a3024c2bb)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/assets/144800739/9913fd97-d8f2-43d2-8f12-99964dfe7e80)
+
 
 
 Figura 7 - Quadro Kanban no Trello.
 
 - Links de Apoio: Lista que contém links de apoio para a equipe durante o desenvolvimento do projeto.
 - Perfis de usuário: Aqui estão listados os perfis de usuário da aplicação, para lembrar a equipe.
-- Backlog priorizado: Todas as atividades identificadas no decorrer do projeto devem ser incorporadas a esta lista. Funciona como Product Backlog. 
-- Sprint: Esta lista representa o Sprint Backlog. Este é o Sprint que a equipe está trabalhando atualmente. 
+- Backlog: Todas as atividades identificadas no decorrer do projeto devem ser incorporadas a esta lista. Funciona como Product Backlog. 
+- Sprint (Do): Esta lista representa o Sprint Backlog. Este é o Sprint que a equipe está trabalhando atualmente. 
 - Hoje (Doing): Aqui a equipe seleciona as tarefas que realizarão naquele dia. São tarefas que são puxadas do Sprint 
 - Aprovados (Done): Nesta lista são colocadas as tarefas que foram aprovadas pelo PO como prontas para ser entregues ao cliente. 
 
@@ -68,7 +69,8 @@ Figura 7 - Quadro Kanban no Trello.
 
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias da imagem abaixo:</p>
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/assets/144800739/b61c54c8-499e-4059-af74-4ec66ddc88d1)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/assets/144800739/ee13ebab-9f3a-4b58-ba97-343ae5d73661)
+
 
 
 Figura 8 - Legenda de etiquetas do quadro kanban
