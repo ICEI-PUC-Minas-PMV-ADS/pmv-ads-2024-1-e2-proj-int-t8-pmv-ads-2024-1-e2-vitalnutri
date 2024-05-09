@@ -86,7 +86,7 @@ namespace VitalNutri.Context
             modelBuilder.Entity<Refeicao>()
                 .HasOne(r => r.PlanoAlimentar)
                 .WithMany(pa => pa.Refeicoes)
-                .HasForeignKey(r => r.PlanoAlimentarId);
+                .HasForeignKey(r => r.RefeicaoId);
 
             modelBuilder.Entity<RefeicaoAlimento>()
                 .HasOne(ra => ra.Refeicao)

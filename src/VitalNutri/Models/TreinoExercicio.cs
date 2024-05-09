@@ -1,13 +1,17 @@
-﻿namespace VitalNutri.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace VitalNutri.Models
 {
     public class TreinoExercicio
     {
         // Propriedades
         public int TreinoId { get; set; }
         public int ExercicioId { get; set; }
-
         // Relacionamentos
-        public Treino Treino { get; set; }
-        public Exercicio Exercicio { get; set; }
+        [ForeignKey("TreinoId")]
+        public virtual Treino Treino { get; set; }
+        [ForeignKey("ExercicioId")]
+        public virtual Exercicio Exercicio { get; set; }
     }
 }

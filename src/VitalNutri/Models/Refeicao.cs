@@ -1,13 +1,13 @@
-﻿namespace VitalNutri.Models
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace VitalNutri.Models
 {
     public class Refeicao
     {
-        // Propriedades
-        public int Id { get; set; }
+        public int RefeicaoId { get; set; }
         public int PlanoAlimentarId { get; set; }
-
-        // Relacionamentos
-
+        [ForeignKey("PlanoAlimentarId")]
         public PlanoAlimentar PlanoAlimentar { get; set; }
         public ICollection<RefeicaoAlimento> RefeicoesAlimentos { get; set; }
     }
