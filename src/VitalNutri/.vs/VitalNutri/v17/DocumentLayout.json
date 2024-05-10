@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAkwAcAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T17:57:39.253Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-05-10T17:27:04.01Z",
               "EditorCaption": ""
