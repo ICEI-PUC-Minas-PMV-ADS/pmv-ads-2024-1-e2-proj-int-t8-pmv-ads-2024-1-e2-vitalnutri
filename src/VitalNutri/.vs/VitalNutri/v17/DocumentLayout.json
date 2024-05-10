@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Data\\Migrations\\20240510184859_Models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240510184859_Models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240510184859_Models.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Data\\Migrations\\20240510184859_Models.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240510184859_Models.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Data\\Migrations\\20240510184859_Models.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240510184859_Models.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T18:48:59.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T18:33:27.986Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -28,20 +62,20 @@
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAkwAcAAABHAAAA",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAqwAcAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-10T17:57:39.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-05-10T17:27:04.01Z",
               "EditorCaption": ""
