@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using VitalNutri.Data;
+using VitalNutri.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

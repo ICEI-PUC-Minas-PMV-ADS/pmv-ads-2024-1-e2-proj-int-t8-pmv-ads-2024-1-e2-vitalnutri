@@ -12,7 +12,10 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using VitalNutri.Data;
+using VitalNutri.Models;
 
 namespace VitalNutri.Areas.Identity.Pages.Account
 {
@@ -23,17 +26,20 @@ namespace VitalNutri.Areas.Identity.Pages.Account
         private readonly UserManager<IdentityUser> _userManager;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
+        private readonly ApplicationDbContext _dbContext;
 
         public RegisterModel(
             UserManager<IdentityUser> userManager,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender)
+            IEmailSender emailSender,
+            ApplicationDbContext dbContext)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
+            _dbContext = dbContext;
         }
 
         [BindProperty]
@@ -60,6 +66,15 @@ namespace VitalNutri.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
+
+            [Required]
+            [Display(Name = "Tipo de usuario")]
+            public string TipoUsuario { get; set; }
+
+            //[Required(ErrorMessage = "Please select a user type.")] 
+            //[Display(Name = "User Type")]
+            //public bool IsUserTypeSelected { get; set; }
+
         }
 
         public async Task OnGetAsync(string returnUrl = null)
@@ -74,11 +89,42 @@ namespace VitalNutri.Areas.Identity.Pages.Account
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
-                var user = new IdentityUser { UserName = Input.Email, Email = Input.Email };
+                var user = new Usuario { UserName = Input.Email, Email = Input.Email, TipoUsuario = Input.TipoUsuario };
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
+
+                    // INICIO Cria usuário na tabela correspondente. 
+                    switch (Input.TipoUsuario)
+                    {
+                        case "Nutricionista":
+                            var nutricionista = new Nutricionista
+                            {
+                                Id = user.Id,
+                            };
+                            _dbContext.Nutricionistas.Add(nutricionista);
+                            break;
+                        case "Cliente":
+                            var cliente = new Cliente
+                            {
+                                Id = user.Id,
+                            };
+                            _dbContext.Clientes.Add(cliente);
+                            break;
+                        case "TreinadorPessoal":
+                            var treinadorPessoal = new TreinadorPessoal
+                            {
+                                Id = user.Id,
+                            };
+                            _dbContext.TreinadoresPessoais.Add(treinadorPessoal);
+                            break;
+                        default:
+                            Console.WriteLine("Número inválido");
+                            break;
+                    }
+                    await _dbContext.SaveChangesAsync();
+                    //FIM
 
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));

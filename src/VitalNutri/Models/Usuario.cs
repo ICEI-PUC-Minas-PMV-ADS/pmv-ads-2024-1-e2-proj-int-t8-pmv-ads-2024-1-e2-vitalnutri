@@ -1,10 +1,12 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 
 
 namespace VitalNutri.Models
 {
     public class Usuario : IdentityUser
     {
+        [Required(ErrorMessage = "O campo Tipo de Usuário é obrigatório.")]
         public string TipoUsuario { get; set; }
 
         // Relacionamentos

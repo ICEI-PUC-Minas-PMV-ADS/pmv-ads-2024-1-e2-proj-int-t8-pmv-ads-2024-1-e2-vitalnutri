@@ -8,8 +8,8 @@ namespace VitalNutri.Models
     {
         [Key]
         public int NutricionistaId { get; set; }
-        public string NumeroRegistro { get; set; }
-        public string Especializacao { get; set; }
+        public string? NumeroRegistro { get; set; }
+        public string? Especializacao { get; set; }
         public string Id { get; set; }
         [ForeignKey("Id")]
         public virtual Usuario Usuario { get; set; }

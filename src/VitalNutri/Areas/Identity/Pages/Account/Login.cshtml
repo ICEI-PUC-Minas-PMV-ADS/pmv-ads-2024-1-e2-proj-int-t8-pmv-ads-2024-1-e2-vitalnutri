@@ -20,6 +20,7 @@
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
+            <a href="~/Home"><b>Admin</b>LTE</a>
         </div>
         <div class="card">
             <div class="card-body login-card-body">
@@ -45,20 +46,13 @@
                         </div>
                     </div>
                     <div class="row">
-@*                         <div class="col-8">
-                            <div class="icheck-primary">
-                                <input type="checkbox" id="remember">
-                                <label for="remember">
-                                    Remember Me
-                                </label>
-                            </div>
-                        </div> *@
                         <div class="col-4">
                             <button type="submit" class="btn btn-primary btn-block">Sign In</button>
                         </div>
                     </div>
                     <div asp-validation-summary="All" class="text-danger small"></div>
                 </form>
+
                 <a class="nav-link" id="login" asp-area="Identity" asp-page="/Account/Register">Criar conta</a>
             </div>
         </div>

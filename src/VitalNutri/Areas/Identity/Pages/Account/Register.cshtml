@@ -25,7 +25,47 @@
 
         <div class="card">
             <div class="card-body register-card-body">
+
                 <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                    <h4>Create a new account.</h4>
+                    <hr />
+
+                    <div class="form-group">
+                        <label asp-for="Input.Email"></label>
+                        <input asp-for="Input.Email" class="form-control" />
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Input.Password"></label>
+                        <input asp-for="Input.Password" class="form-control" />
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Input.ConfirmPassword"></label>
+                        <input asp-for="Input.ConfirmPassword" class="form-control" />
+                        <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Input.TipoUsuario"></label>
+                        <div>
+                            <input type="radio" asp-for="Input.TipoUsuario" value="Cliente" name="Input.TipoUsuario" />
+                            <label class="form-check-label" for="Input_TipoUsuario_Cliente">Aluno/Paciente</label>
+                            <input type="radio" asp-for="Input.TipoUsuario" value="Nutricionista" name="Input.TipoUsuario" />
+                            <label class="form-check-label" for="Input_TipoUsuario_Nutricionista">Nutricionista</label>
+                            <input type="radio" asp-for="Input.TipoUsuario" value="TreinadorPessoal" name="Input.TipoUsuario" />
+                            <label class="form-check-label" for="Input_TipoUsuario_Personal">Treinador Pessoal</label>
+                            <span asp-validation-for="Input.TipoUsuario" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Register</button>
+                </form>
+
+
+ @*                <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
                     <h4>Create a new account.</h4>
                     <hr />
                     <div class="form-group">
@@ -44,7 +84,7 @@
                         <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
                     </div>
                     <button type="submit" class="btn btn-primary">Register</button>
-                </form>
+                </form> *@
                 <a class="nav-link" id="login" asp-area="Identity" asp-page="/Account/Login">Já tenho uma conta.</a>
 
             </div>
