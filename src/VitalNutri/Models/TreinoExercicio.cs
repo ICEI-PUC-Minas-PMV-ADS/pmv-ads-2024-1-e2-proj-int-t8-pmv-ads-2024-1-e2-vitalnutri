@@ -6,12 +6,14 @@ namespace VitalNutri.Models
     public class TreinoExercicio
     {
         // Propriedades
+        [ForeignKey("TreinoId")]
         public int TreinoId { get; set; }
+
+        [ForeignKey("ExercicioId")]
         public int ExercicioId { get; set; }
         // Relacionamentos
-        [ForeignKey("TreinoId")]
+
         public virtual Treino Treino { get; set; }
-        [ForeignKey("ExercicioId")]
         public virtual Exercicio Exercicio { get; set; }
     }
 }

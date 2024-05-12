@@ -50,6 +50,7 @@ builder.Services.AddAuthorization(options =>
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<AlimentoService>();
+builder.Services.AddScoped<ExercicioService>();
 builder.Services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
 
 var app = builder.Build();
@@ -105,12 +106,12 @@ app.UseEndpoints(endpoints =>
     //Rotas Treinador Pessoal
     endpoints.MapControllerRoute(
         name: "TreinadorPessoalExercicioIndex",
-        pattern: "Nutricionista/Alimento",
+        pattern: "TreinadorPessoal/Exercicio",
         defaults: new { area = "TreinadorPessoal", controller = "Exercicio", action = "Index" });
 
     endpoints.MapControllerRoute(
         name: "TreinadorPessoalExercicioCreate",
-        pattern: "Nutricionista/Alimento/Create",
+        pattern: "TreinadorPessoal/Exercicio/Create",
         defaults: new { area = "TreinadorPessoal", controller = "Exercicio", action = "Create" });
 
     // Rota para página de construção

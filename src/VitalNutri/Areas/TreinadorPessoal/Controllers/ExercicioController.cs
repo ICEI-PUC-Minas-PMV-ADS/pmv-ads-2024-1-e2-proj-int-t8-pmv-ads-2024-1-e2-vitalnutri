@@ -17,19 +17,19 @@ namespace VitalNutri.Areas.TreinadorPessoal.Controllers
     public class ExercicioController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly AlimentoService _alimentoService;
+        private readonly ExercicioService _exercicioService;
 
-        public ExercicioController(ApplicationDbContext context, AlimentoService alimentoService)
+        public ExercicioController(ApplicationDbContext context, ExercicioService alimentoService)
         {
             _context = context;
-            _alimentoService = alimentoService; // Atribua o serviço à variável local
+            _exercicioService = alimentoService; // Atribua o serviço à variável local
         }
 
         // GET: TreinadorPessoal/Exercicio
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Exercicios.Include(e => e.TreinadorPessoal);
-            return View(await applicationDbContext.ToListAsync());
+            var exerciciosDoUsuario = _exercicioService.ObterExerciciosDoUsuarioAtual();
+            return View(exerciciosDoUsuario.ToList());
         }
 
         // GET: TreinadorPessoal/Exercicio/Details/5

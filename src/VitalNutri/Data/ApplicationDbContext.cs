@@ -29,87 +29,92 @@ namespace VitalNutri.Data
         // Método para configurar o modelo
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<ClienteNutricionista>()
-                .HasKey(cn => new { cn.ClienteId, cn.NutricionistaId });
-
-            modelBuilder.Entity<ClienteTreinadorPessoal>()
-                .HasKey(ct => new { ct.ClienteId, ct.TreinadorPessoalId });
-
-            modelBuilder.Entity<RefeicaoAlimento>()
-                .HasKey(ra => new { ra.RefeicaoId, ra.AlimentoId });
-
-            modelBuilder.Entity<TreinoExercicio>()
-                .HasKey(te => new { te.TreinoId, te.ExercicioId });
-
+            //CLIENTE
             modelBuilder.Entity<Cliente>()
                 .HasMany(c => c.ClientesNutricionistas)
                 .WithOne(cn => cn.Cliente)
                 .HasForeignKey(cn => cn.ClienteId);
-
-            modelBuilder.Entity<Nutricionista>()
-                .HasMany(n => n.ClientesNutricionistas)
-                .WithOne(cn => cn.Nutricionista)
-                .HasForeignKey(cn => cn.NutricionistaId);
 
             modelBuilder.Entity<Cliente>()
                 .HasMany(c => c.ClientesTreinadoresPessoais)
                 .WithOne(ct => ct.Cliente)
                 .HasForeignKey(ct => ct.ClienteId);
 
-            modelBuilder.Entity<TreinadorPessoal>()
-                .HasMany(tp => tp.ClientesTreinadoresPessoais)
-                .WithOne(ct => ct.TreinadorPessoal)
-                .HasForeignKey(ct => ct.TreinadorPessoalId);
+            //NUTRICIONISTA
+            modelBuilder.Entity<Nutricionista>() //1
+                .HasMany(n => n.ClientesNutricionistas)
+                .WithOne(cn => cn.Nutricionista)
+                .HasForeignKey(cn => cn.NutricionistaId);
 
-            modelBuilder.Entity<PlanoAlimentar>()
+            modelBuilder.Entity<PlanoAlimentar>() //2
                 .HasOne(pa => pa.Nutricionista)
                 .WithMany(n => n.PlanosAlimentares)
                 .HasForeignKey(pa => pa.NutricionistaId);
 
-            modelBuilder.Entity<PlanoAlimentar>()
+            modelBuilder.Entity<PlanoAlimentar>() //3
                 .HasOne(pa => pa.Cliente)
                 .WithMany(c => c.PlanosAlimentares)
                 .HasForeignKey(pa => pa.ClienteId);
 
-            modelBuilder.Entity<PlanoTreino>()
-                .HasOne(pt => pt.TreinadorPessoal)
-                .WithMany(tp => tp.PlanosTreino)
-                .HasForeignKey(pt => pt.TreinadorPessoalId);
+            modelBuilder.Entity<ClienteNutricionista>() //4
+                .HasKey(cn => new { cn.ClienteId, cn.NutricionistaId });
 
-            modelBuilder.Entity<PlanoTreino>()
-                .HasOne(pt => pt.Cliente)
-                .WithMany(c => c.PlanosTreino)
-                .HasForeignKey(pt => pt.ClienteId);
+            modelBuilder.Entity<RefeicaoAlimento>() //5
+                .HasKey(ra => new { ra.RefeicaoId, ra.AlimentoId });
 
-            modelBuilder.Entity<Refeicao>()
-                .HasOne(r => r.PlanoAlimentar)
-                .WithMany(pa => pa.Refeicoes)
-                .HasForeignKey(r => r.RefeicaoId);
-
-            modelBuilder.Entity<RefeicaoAlimento>()
+            modelBuilder.Entity<RefeicaoAlimento>() //6
                 .HasOne(ra => ra.Refeicao)
                 .WithMany(r => r.RefeicoesAlimentos)
                 .HasForeignKey(ra => ra.RefeicaoId);
 
-            modelBuilder.Entity<RefeicaoAlimento>()
+            modelBuilder.Entity<RefeicaoAlimento>() //7
                 .HasOne(ra => ra.Alimento)
                 .WithMany(a => a.RefeicoesAlimentos)
                 .HasForeignKey(ra => ra.AlimentoId);
 
-            modelBuilder.Entity<Treino>()
-                .HasOne(t => t.PlanoTreino)
-                .WithMany(pt => pt.Treinos)
-                .HasForeignKey(t => t.TreinoId);
+            modelBuilder.Entity<Refeicao>() //8
+                .HasOne(r => r.PlanoAlimentar)
+                .WithMany(pa => pa.Refeicoes)
+                .HasForeignKey(r => r.RefeicaoId);
 
-            modelBuilder.Entity<TreinoExercicio>()
+
+            //TREINADOR
+            modelBuilder.Entity<TreinadorPessoal>() //1
+                .HasMany(tp => tp.ClientesTreinadoresPessoais)
+                .WithOne(ct => ct.TreinadorPessoal)
+                .HasForeignKey(ct => ct.TreinadorPessoalId);
+
+            modelBuilder.Entity<PlanoTreino>() //2
+                .HasOne(pt => pt.TreinadorPessoal)
+                .WithMany(tp => tp.PlanosTreino)
+                .HasForeignKey(pt => pt.TreinadorPessoalId);
+
+            modelBuilder.Entity<PlanoTreino>() //3
+                .HasOne(pt => pt.Cliente)
+                .WithMany(c => c.PlanosTreino)
+                .HasForeignKey(pt => pt.ClienteId);
+
+            modelBuilder.Entity<ClienteTreinadorPessoal>() //4
+                .HasKey(ct => new { ct.ClienteId, ct.TreinadorPessoalId });
+
+            modelBuilder.Entity<TreinoExercicio>() //5
+                .HasKey(te => new { te.TreinoId, te.ExercicioId });
+
+            modelBuilder.Entity<TreinoExercicio>() //7
                 .HasOne(te => te.Treino)
                 .WithMany(t => t.TreinosExercicios)
-                .HasForeignKey(te => te.TreinoId);
+                .HasForeignKey(te => te.TreinoId)
+                .OnDelete(DeleteBehavior.Restrict); 
 
-            modelBuilder.Entity<TreinoExercicio>()
+            modelBuilder.Entity<TreinoExercicio>() //8
                 .HasOne(te => te.Exercicio)
                 .WithMany(e => e.TreinosExercicios)
                 .HasForeignKey(te => te.ExercicioId);
+
+            modelBuilder.Entity<Treino>() //6
+                .HasOne(t => t.PlanoTreino)
+                .WithMany(pt => pt.Treinos)
+                .HasForeignKey(t => t.TreinoId);
 
             // Configurações adicionais...
 

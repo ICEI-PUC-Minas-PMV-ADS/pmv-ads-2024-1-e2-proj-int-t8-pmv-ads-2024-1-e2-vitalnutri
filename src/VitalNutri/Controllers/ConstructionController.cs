@@ -12,7 +12,7 @@ namespace VitalNutri.Controllers
             var breadcrumbItems = new List<BreadcrumbItem>
             {
                 new BreadcrumbItem { Text = "Home", Url = "/" },
-                new BreadcrumbItem { Text = "Starter Page", Url = "/Home/Index" }
+                new BreadcrumbItem { Text = "Em construção", Url = "/Home/Index" }
             };
 
             // Passando os itens do breadcrumb para a view

@@ -26,6 +26,8 @@
     <Folder Include="Areas\Nutricionista\Models\" />
     <Folder Include="Areas\TreinadorPessoal\Data\" />
     <Folder Include="Areas\TreinadorPessoal\Models\" />
+    <Folder Include="Data\Migrations\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

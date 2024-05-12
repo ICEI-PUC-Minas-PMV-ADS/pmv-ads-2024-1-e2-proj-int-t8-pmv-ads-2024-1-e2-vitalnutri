@@ -7,12 +7,14 @@ namespace VitalNutri.Models
     {
         [Key]
         public int ExercicioId { get; set; }
+        [Required]
         public string Nome { get; set; }
-        public string Descricao { get; set; }
-        public int? TreinadorPessoalId { get; set; }
-        public byte[] Imagem { get; set; }
+        [Required]
+        public string? Descricao { get; set; }
         [ForeignKey("TreinadorPessoalId")]
-        public virtual TreinadorPessoal TreinadorPessoal { get; set; }
-        public ICollection<TreinoExercicio> TreinosExercicios { get; set; }
+        public int TreinadorPessoalId { get; set; }
+        public byte[]? Imagem { get; set; }
+        public virtual TreinadorPessoal? TreinadorPessoal { get; set; }
+        public ICollection<TreinoExercicio>? TreinosExercicios { get; set; }
     }
 }

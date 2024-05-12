@@ -42,21 +42,27 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a asp-controller="Perfil" asp-action="Index" class="nav-link @Url.MakeActiveClass("Perfil","index")">
+                                    <a asp-area="Cliente" asp-controller="Cliente" asp-action="Index" class="nav-link @Url.MakeActiveClass("Inicio", "Index")">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Inicio</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-area="Cliente" asp-controller="Cliente" asp-action="Index" class="nav-link @Url.MakeActiveClass("Perfil", "Index")">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Perfil</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-controller="PlanoAlimentar" asp-action="Index" class="nav-link @Url.MakeActiveClass("Plano Alimentar","index")">
+                                    <a asp-area="Cliente" asp-controller="Cliente" asp-action="Index" class="nav-link @Url.MakeActiveClass("Plano de Treino", "Index")">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Plano Alimentar</p>
+                                        <p>Plano de Treino</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-controller="PlanoTreino" asp-action="Privacy" class="nav-link @Url.MakeActiveClass("Plano de Treino","privacy")">
+                                    <a asp-area="Cliente" asp-controller="Cliente" asp-action="Index" class="nav-link @Url.MakeActiveClass("Plano Alimentar", "Index")">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Plano de Treino</p>
+                                        <p>Plano Alimentar</p>
                                     </a>
                                 </li>
                             </ul>
@@ -108,19 +114,19 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a asp-controller="Home" asp-action="Index" class="nav-link @Url.MakeActiveClass("Alunos","index")">
+                                    <a asp-area="TreinadorPessoal" asp-controller="Aluno" asp-action="Index" class="nav-link @Url.MakeActiveClass("Aluno", "Index")">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Alunos</p>
+                                        <p>Aluno</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-controller="Home" asp-action="Privacy" class="nav-link @Url.MakeActiveClass("Exercícios","privacy")">
+                                    <a asp-area="TreinadorPessoal" asp-controller="Exercicio" asp-action="Index" class="nav-link @Url.MakeActiveClass("Exercicio", "Index")">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Exercícios</p>
+                                        <p>Exercicio</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-controller="Home" asp-action="Privacy" class="nav-link @Url.MakeActiveClass("Plano de Treino","privacy")">
+                                    <a asp-area="TreinadorPessoal" asp-controller="PlanoTreino" asp-action="Index" class="nav-link @Url.MakeActiveClass("Plano de Treino", "Index")">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Plano de Treino</p>
                                     </a>
