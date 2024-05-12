@@ -4,7 +4,6 @@
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-## Diagrama de Classes
 
 ## Diagrama de Classes
 
