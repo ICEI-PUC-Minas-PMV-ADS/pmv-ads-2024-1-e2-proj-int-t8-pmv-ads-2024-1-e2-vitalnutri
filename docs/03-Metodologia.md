@@ -52,11 +52,11 @@ Desse modo, a equipe se dispõe da sequinte forma:
 
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello (Figura 1), estruturado no estilo Kanban, com as seguintes listas:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/assets/144800739/9913fd97-d8f2-43d2-8f12-99964dfe7e80)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri/blob/main/docs/img/Kanban%2012-05-24.png)
 
 
 
-Figura 7 - Quadro Kanban no Trello.
+Figura 7 - Quadro Kanban no Trello atualizado em 12/05/2024.
 
 - Links de Apoio: Lista que contém links de apoio para a equipe durante o desenvolvimento do projeto.
 - Perfis de usuário: Aqui estão listados os perfis de usuário da aplicação, para lembrar a equipe.
