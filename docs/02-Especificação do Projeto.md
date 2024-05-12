@@ -93,6 +93,8 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-018| A aplicação deve exibir notificações para os profissionais quando o paciente não fizer o registro de refeições e treinos por mais de 14 dias | BAIXA |
 |RF-019| A aplicação deve exibir o cálculo do IMC do paciente  | ALTA |
 |RF-020| A aplicação deve enviar notificações ao paciente a respeito de sua evolução  | MÉDIA |
+|RF-021| A aplicação deve permitir ao nutricionista o cadastro de alimentos  | ALTA |
+|RF-022| A aplicação deve permitir ao educador físico o cadastro de exercícios  | ALTA |
 
 
 ### Requisitos não Funcionais
