@@ -1,0 +1,66 @@
+﻿@model IEnumerable<VitalNutri.Models.Alimento>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/AdminLTE/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Calorias)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Carboidratos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gorduras)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Proteinas)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nutricionista)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Calorias)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Carboidratos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gorduras)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Proteinas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nutricionista.NutricionistaId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.AlimentoId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.AlimentoId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.AlimentoId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

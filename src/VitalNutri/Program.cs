@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using VitalNutri.Data;
 using VitalNutri.Models;
+using VitalNutri.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,17 +15,18 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDefaultIdentity<IdentityUser>(options =>
 {
     options.SignIn.RequireConfirmedAccount = false;
-    // Configurar as políticas de senha
+    // Configurar as polï¿½ticas de senha
     options.Password.RequireDigit = true;
     options.Password.RequireLowercase = false;
     options.Password.RequireUppercase = false;
     options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequiredLength = 6; // Mínimo de 8 caracteres
-    options.Password.RequiredUniqueChars = 0; // Mínimo de 6 caracteres diferentes}
+    options.Password.RequiredLength = 6; // Mï¿½nimo de 8 caracteres
+    options.Password.RequiredUniqueChars = 0; // Mï¿½nimo de 6 caracteres diferentes}
 }
 )
 .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<AlimentoService>();
 
 var app = builder.Build();
 

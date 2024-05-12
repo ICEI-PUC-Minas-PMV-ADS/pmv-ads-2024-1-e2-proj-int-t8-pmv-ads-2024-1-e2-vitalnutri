@@ -7,14 +7,19 @@ namespace VitalNutri.Models
     {
         [Key]
         public int AlimentoId { get; set; }
+        [Required]
         public string Nome { get; set; }
+        [Required]
         public int? Calorias { get; set; }
+        [Required]
         public int? Carboidratos { get; set; }
+        [Required]
         public int? Gorduras { get; set; }
+        [Required]
         public int? Proteinas { get; set; }
-        public int NutricionistaId { get; set; }
         [ForeignKey("NutricionistaId")]
-        public virtual Nutricionista Nutricionista { get; set; }
-        public ICollection<RefeicaoAlimento> RefeicoesAlimentos { get; set; }
+        public int NutricionistaId { get; set; }
+        public virtual Nutricionista? Nutricionista { get; set; }
+        public ICollection<RefeicaoAlimento>? RefeicoesAlimentos { get; set; }
     }
 }
