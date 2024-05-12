@@ -22,12 +22,22 @@ Implementação do sistema descrita por meio dos requisitos funcionais e/ou não
 
 
 # Instruções de acesso
+Executar em localhost.
 
-A aplicação está diponível no link de acesso a seguir: https://adota-pet.herokuapp.com/src/index.html.
+1. Abrir a solução vitalnutri.sln
+2. Abrir o arquivo appconfig.json e modificar a string de conexão apontando para a instância do banco local. Ex. SQLEXPRESS
+3. No Package Managemt Console executar o comando: Update Database e aguardar o término da excução das migrations
+4. Partir a aplicação
 
-Para acessar, devem ser utilizadas as credenciais de teste abaixo:
+Nutricionista:
+Usuário: nutricionista@vitalnutri.com
+Senha: 123456
 
-Usuário: admin
-Senha: admin
+Treinador:
+Usuário: treinadorvitalnutri.com
+Senha: 123456
 
-O link e o usuário/senha descritos acima são apenas exemplos de como tais informações deverão ser apresentadas.
+Cliente:
+Usuário: treinadorvitalnutri.com
+Senha: 123456
+
