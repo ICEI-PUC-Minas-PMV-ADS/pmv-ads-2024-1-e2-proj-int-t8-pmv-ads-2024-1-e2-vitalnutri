@@ -176,12 +176,10 @@ namespace VitalNutri.Data.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderKey")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
@@ -218,12 +216,10 @@ namespace VitalNutri.Data.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");
@@ -242,12 +238,15 @@ namespace VitalNutri.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("AlimentoId"));
 
                     b.Property<int?>("Calorias")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<int?>("Carboidratos")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<int?>("Gorduras")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<string>("Nome")
@@ -258,6 +257,7 @@ namespace VitalNutri.Data.Migrations
                         .HasColumnType("int");
 
                     b.Property<int?>("Proteinas")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.HasKey("AlimentoId");
@@ -275,17 +275,17 @@ namespace VitalNutri.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ClienteId"));
 
-                    b.Property<double>("Altura")
+                    b.Property<double?>("Altura")
                         .HasColumnType("float");
 
                     b.Property<string>("Id")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<double>("MetaPeso")
+                    b.Property<double?>("MetaPeso")
                         .HasColumnType("float");
 
-                    b.Property<double>("Peso")
+                    b.Property<double?>("Peso")
                         .HasColumnType("float");
 
                     b.HasKey("ClienteId");
@@ -499,14 +499,12 @@ namespace VitalNutri.Data.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TreinadorPessoalId"));
 
                     b.Property<string>("Especializacao")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("NumeroRegistro")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("TreinadorPessoalId");

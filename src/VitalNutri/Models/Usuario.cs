@@ -13,5 +13,6 @@ namespace VitalNutri.Models
         public virtual ICollection<Cliente> Clientes { get; set; }
         public virtual ICollection<TreinadorPessoal> TreinadoresPessoais { get; set; }
         public virtual ICollection<Nutricionista> Nutricionistas { get; set; }
+
     }
 }

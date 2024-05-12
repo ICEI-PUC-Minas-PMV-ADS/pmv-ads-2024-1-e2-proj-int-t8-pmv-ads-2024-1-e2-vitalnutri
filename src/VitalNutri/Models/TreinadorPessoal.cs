@@ -9,12 +9,12 @@ namespace VitalNutri.Models
         // Propriedades
         [Key]
         public int TreinadorPessoalId { get; set; }
-        public string NumeroRegistro { get; set; }
-        public string Especializacao { get; set; }
+        public string? NumeroRegistro { get; set; }
+        public string? Especializacao { get; set; }
         public string Id { get; set; }
         [ForeignKey("Id")]
         public virtual Usuario Usuario { get; set; }
-        public ICollection<PlanoTreino> PlanosTreino { get; set; }
-        public ICollection<ClienteTreinadorPessoal> ClientesTreinadoresPessoais { get; set; }
+        public ICollection<PlanoTreino>? PlanosTreino { get; set; }
+        public ICollection<ClienteTreinadorPessoal>? ClientesTreinadoresPessoais { get; set; }
     }
 }

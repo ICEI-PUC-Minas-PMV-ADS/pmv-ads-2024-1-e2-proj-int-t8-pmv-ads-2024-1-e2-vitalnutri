@@ -99,21 +99,24 @@ namespace VitalNutri.Areas.Identity.Pages.Account
                     switch (Input.TipoUsuario)
                     {
                         case "Nutricionista":
-                            var nutricionista = new Nutricionista
+                            await _userManager.AddToRoleAsync(user, "Nutricionista");
+                            var nutricionista = new Models.Nutricionista
                             {
                                 Id = user.Id,
                             };
                             _dbContext.Nutricionistas.Add(nutricionista);
                             break;
                         case "Cliente":
-                            var cliente = new Cliente
+                            await _userManager.AddToRoleAsync(user, "Cliente");
+                            var cliente = new Models.Cliente
                             {
                                 Id = user.Id,
                             };
                             _dbContext.Clientes.Add(cliente);
                             break;
                         case "TreinadorPessoal":
-                            var treinadorPessoal = new TreinadorPessoal
+                            await _userManager.AddToRoleAsync(user, "TreinadorPessoal");
+                            var treinadorPessoal = new Models.TreinadorPessoal
                             {
                                 Id = user.Id,
                             };

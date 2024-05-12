@@ -17,4 +17,17 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Cliente\Controllers\" />
+    <Folder Include="Areas\Cliente\Data\" />
+    <Folder Include="Areas\Cliente\Models\" />
+    <Folder Include="Areas\Cliente\Views\" />
+    <Folder Include="Areas\Nutricionista\Data\" />
+    <Folder Include="Areas\Nutricionista\Models\" />
+    <Folder Include="Areas\TreinadorPessoal\Controllers\" />
+    <Folder Include="Areas\TreinadorPessoal\Data\" />
+    <Folder Include="Areas\TreinadorPessoal\Models\" />
+    <Folder Include="Areas\TreinadorPessoal\Views\" />
+  </ItemGroup>
+
 </Project>

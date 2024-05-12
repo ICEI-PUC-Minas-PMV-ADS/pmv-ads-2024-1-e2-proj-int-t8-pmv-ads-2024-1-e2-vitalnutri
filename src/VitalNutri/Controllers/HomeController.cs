@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using VitalNutri.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace VitalNutri.Controllers
 {
@@ -14,6 +15,7 @@ namespace VitalNutri.Controllers
         {
             _logger = logger;
         }
+
         [Authorize]
         public IActionResult Index()
         {

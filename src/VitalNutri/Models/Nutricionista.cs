@@ -13,7 +13,7 @@ namespace VitalNutri.Models
         public string Id { get; set; }
         [ForeignKey("Id")]
         public virtual Usuario Usuario { get; set; }
-        public ICollection<PlanoAlimentar> PlanosAlimentares { get; set; }
-        public ICollection<ClienteNutricionista> ClientesNutricionistas { get; set; }
+        public ICollection<PlanoAlimentar>? PlanosAlimentares { get; set; }
+        public ICollection<ClienteNutricionista>? ClientesNutricionistas { get; set; }
     }
 }

@@ -29,133 +29,105 @@
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 @if (User.Identity.IsAuthenticated)
                 {
-@*                     //HOME
-                    <li class="nav-item ">
-                        <a asp-controller="Home" asp-action="Index" class="nav-link @Url.MakeActiveClass("home","index")">
-                            <i class="nav-icon fas fa-home"></i>
-                            <p>
-                                Home
-                                <i class="right fas fa-angle-left"></i>
-                            </p>
-                        </a>
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a asp-controller="Home" asp-action="Index" class="nav-link @Url.MakeActiveClass("home","index")">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Subitem 1</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a asp-controller="Home" asp-action="Privacy" class="nav-link @Url.MakeActiveClass("home","privacy")">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Subitem 2</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </li> *@
-
                     //CLIENTE
-                    <li class="nav-item ">
-                        <a asp-controller="Cliente" asp-action="Index" class="nav-link @Url.MakeActiveClass("home","index")">
-                            <i class="nav-icon fas fa-home"></i>
-                            <p>
-                                Cliente
-                                <i class="right fas fa-angle-left"></i>
-                            </p>
-                        </a>
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a asp-controller="Perfil" asp-action="Index" class="nav-link @Url.MakeActiveClass("Perfil","index")">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Perfil</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a asp-controller="PlanoAlimentar" asp-action="Index" class="nav-link @Url.MakeActiveClass("Plano Alimentar","index")">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Plano Alimentar</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a asp-controller="PlanoTreino" asp-action="Privacy" class="nav-link @Url.MakeActiveClass("Plano de Treino","privacy")">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Plano de Treino</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    //NUTRICIONISTA
-                    <li class="nav-item ">
-                        <a asp-controller="Nutricionista" asp-action="Index" class="nav-link @Url.MakeActiveClass("Nutricionista","index")">
-                            <i class="nav-icon fas fa-home"></i>
-                            <p>
-                                Nutricionista
-                                <i class="right fas fa-angle-left"></i>
-                            </p>
-                        </a>
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a asp-controller="Nutricionistas" asp-action="Index" class="nav-link @Url.MakeActiveClass("Pacientes","index")">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Pacientes</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a asp-controller="Alimentos" asp-action="Index" class="nav-link @Url.MakeActiveClass("Alimentos","Index")">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Alimentos</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a asp-controller="PlanoAlimentar" asp-action="Index" class="nav-link @Url.MakeActiveClass("Plano Alimentar","Index")">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Plano Alimentar</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-
-                    //TREINADOR PESSOAL
-                    <li class="nav-item ">
-                        <a asp-controller="Home" asp-action="Index" class="nav-link @Url.MakeActiveClass("Treinador Pessoal","index")">
-                            <i class="nav-icon fas fa-home"></i>
-                            <p>
-                                Treinador Pessoal
-                                <i class="right fas fa-angle-left"></i>
-                            </p>
-                        </a>
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a asp-controller="Home" asp-action="Index" class="nav-link @Url.MakeActiveClass("Alunos","index")">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Alunos</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a asp-controller="Home" asp-action="Privacy" class="nav-link @Url.MakeActiveClass("Exercícios","privacy")">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Exercícios</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a asp-controller="Home" asp-action="Privacy" class="nav-link @Url.MakeActiveClass("Plano de Treino","privacy")">
-                                    <i class="far fa-circle nav-icon"></i>
-                                    <p>Plano de Treino</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-
-
-                    <li class="nav-item ">
-                        <a asp-controller="Home" asp-action="Privacy" class="nav-link @Url.MakeActiveClass("home","privacy")">
-                            <i class="nav-icon fas fa-lock"></i>
-                            <p>
-                                Privacy
-                            </p>
-                        </a>
-                    </li>
+                    @if (User.IsInRole("Cliente"))
+                    {
+                        <li class="nav-item ">
+                            <a asp-controller="Cliente" asp-action="Index" class="nav-link @Url.MakeActiveClass("home","index")">
+                                <i class="nav-icon fas fa-home"></i>
+                                <p>
+                                    Cliente
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a asp-controller="Perfil" asp-action="Index" class="nav-link @Url.MakeActiveClass("Perfil","index")">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Perfil</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-controller="PlanoAlimentar" asp-action="Index" class="nav-link @Url.MakeActiveClass("Plano Alimentar","index")">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Plano Alimentar</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-controller="PlanoTreino" asp-action="Privacy" class="nav-link @Url.MakeActiveClass("Plano de Treino","privacy")">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Plano de Treino</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    }
+                    @if (User.IsInRole("Nutricionista"))
+                    {
+                        //NUTRICIONISTA
+                        <li class="nav-item ">
+                            <a asp-controller="Nutricionista" asp-action="Index" class="nav-link @Url.MakeActiveClass("Nutricionista","index")">
+                                <i class="nav-icon fas fa-home"></i>
+                                <p>
+                                    Nutricionista
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a asp-controller="Nutricionistas" asp-action="Index" class="nav-link @Url.MakeActiveClass("Pacientes","index")">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Pacientes</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-area="Nutricionista" asp-controller="Alimento" asp-action="Index" class="nav-link @Url.MakeActiveClass("Alimento", "Index")">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Alimentos</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-controller="PlanoAlimentar" asp-action="Index" class="nav-link @Url.MakeActiveClass("Plano Alimentar","Index")">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Plano Alimentar</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    }
+                    @if (User.IsInRole("TreinadorPessoal"))
+                    {
+                        //TREINADOR PESSOAL
+                        <li class="nav-item ">
+                            <a asp-controller="Home" asp-action="Index" class="nav-link @Url.MakeActiveClass("Treinador Pessoal","index")">
+                                <i class="nav-icon fas fa-home"></i>
+                                <p>
+                                    Treinador Pessoal
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a asp-controller="Home" asp-action="Index" class="nav-link @Url.MakeActiveClass("Alunos","index")">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Alunos</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-controller="Home" asp-action="Privacy" class="nav-link @Url.MakeActiveClass("Exercícios","privacy")">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Exercícios</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a asp-controller="Home" asp-action="Privacy" class="nav-link @Url.MakeActiveClass("Plano de Treino","privacy")">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Plano de Treino</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    }
                 }
             </ul>
         </nav>

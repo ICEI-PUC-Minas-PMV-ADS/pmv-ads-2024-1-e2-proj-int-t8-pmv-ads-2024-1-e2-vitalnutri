@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\areas\\nutricionista\\controllers\\alimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:areas\\nutricionista\\controllers\\alimentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\views\\shared\\adminlte\\_mainnavigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:views\\shared\\adminlte\\_mainnavigation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,8 +15,68 @@
       "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\alimentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:alimentoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Data\\Migrations\\20240512114028_atualizacaonotnull2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20240512114028_atualizacaonotnull2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\models\\treinadorpessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:models\\treinadorpessoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\models\\nutricionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:models\\nutricionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\models\\treino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:models\\treino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\models\\alimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:models\\alimento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\services\\seeduserroleinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:services\\seeduserroleinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\services\\iseeduserroleinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:services\\iseeduserroleinitial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\services\\alimentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:services\\alimentoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|c:\\users\\leonidas\\documents\\puc minas\\eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\vitalnutri\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D980B1FD-D601-4C8E-8FBD-B5A0D66A6E1B}|VitalNutri.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +86,252 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "AlimentosController.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\AlimentosController.cs",
+              "RelativeDocumentMoniker": "AlimentosController.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\AlimentosController.cs",
+              "RelativeToolTip": "AlimentosController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:11:17.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlimentoController.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Areas\\Nutricionista\\Controllers\\AlimentoController.cs",
+              "RelativeDocumentMoniker": "Areas\\Nutricionista\\Controllers\\AlimentoController.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Areas\\Nutricionista\\Controllers\\AlimentoController.cs",
+              "RelativeToolTip": "Areas\\Nutricionista\\Controllers\\AlimentoController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAswBoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:09:53.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwFgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:00:39.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAiwF8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T02:55:56.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T02:50:29.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_MainNavigation.cshtml",
               "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Views\\Shared\\AdminLTE\\_MainNavigation.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\AdminLTE\\_MainNavigation.cshtml",
               "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Views\\Shared\\AdminLTE\\_MainNavigation.cshtml",
               "RelativeToolTip": "Views\\Shared\\AdminLTE\\_MainNavigation.cshtml",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAAAGIAAABBAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAAFIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-12T02:46:52.064Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAswHYAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:16:37.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TreinadorPessoal.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Models\\TreinadorPessoal.cs",
+              "RelativeDocumentMoniker": "Models\\TreinadorPessoal.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Models\\TreinadorPessoal.cs",
+              "RelativeToolTip": "Models\\TreinadorPessoal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:36:13.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Models\\Cliente.cs",
+              "RelativeToolTip": "Models\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:36:50.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-12T11:49:39.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240512114028_atualizacaonotnull2.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Data\\Migrations\\20240512114028_atualizacaonotnull2.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240512114028_atualizacaonotnull2.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Data\\Migrations\\20240512114028_atualizacaonotnull2.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240512114028_atualizacaonotnull2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:40:29.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T10:16:35.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Alimento.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Models\\Alimento.cs",
+              "RelativeDocumentMoniker": "Models\\Alimento.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Models\\Alimento.cs",
+              "RelativeToolTip": "Models\\Alimento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:37:39.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Treino.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Models\\Treino.cs",
+              "RelativeDocumentMoniker": "Models\\Treino.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Models\\Treino.cs",
+              "RelativeToolTip": "Models\\Treino.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:37:57.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Nutricionista.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Models\\Nutricionista.cs",
+              "RelativeDocumentMoniker": "Models\\Nutricionista.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Models\\Nutricionista.cs",
+              "RelativeToolTip": "Models\\Nutricionista.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T11:38:15.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SeedUserRoleInitial.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Services\\SeedUserRoleInitial.cs",
+              "RelativeDocumentMoniker": "Services\\SeedUserRoleInitial.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Services\\SeedUserRoleInitial.cs",
+              "RelativeToolTip": "Services\\SeedUserRoleInitial.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAswEcAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:10:30.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AlimentoService.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Services\\AlimentoService.cs",
+              "RelativeDocumentMoniker": "Services\\AlimentoService.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Services\\AlimentoService.cs",
+              "RelativeToolTip": "Services\\AlimentoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T03:58:54.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T03:21:00.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ISeedUserRoleInitial.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Services\\ISeedUserRoleInitial.cs",
+              "RelativeDocumentMoniker": "Services\\ISeedUserRoleInitial.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Services\\ISeedUserRoleInitial.cs",
+              "RelativeToolTip": "Services\\ISeedUserRoleInitial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T10:10:18.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Leonidas\\Documents\\PUC Minas\\Eixo2\\pmv-ads-2024-1-e2-proj-int-t8-pmv-ads-2024-1-e2-vitalnutri\\src\\VitalNutri\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T02:50:29.417Z"
             }
           ]
         }
