@@ -42,11 +42,16 @@ O projeto da base de dados corresponde à representação das entidades e relaci
 ## Tecnologias Utilizadas
 
 As tecnologias usadas são:
-Banco de dados: SQLServer
+
+Banco de dados: SQLServer;
+
 Linguagem: C#
-Framework: Aspnetcore MVC 8 
-Template Bootstrap: AdminLTE3 
-IDEs: Visual Studio Community 2022 e SQL Server Management Studio
+
+Framework: Aspnetcore MVC 8;
+
+Template Bootstrap: AdminLTE3;
+
+IDEs: Visual Studio Community 2022 e SQL Server Management Studio.
 
 ## Hospedagem
 
