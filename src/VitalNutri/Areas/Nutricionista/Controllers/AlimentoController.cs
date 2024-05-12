@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using VitalNutri.Data;
 using VitalNutri.Models;
+using VitalNutri.Services;
 
 namespace VitalNutri.Areas.Nutricionista.Controllers
 {
@@ -16,17 +17,21 @@ namespace VitalNutri.Areas.Nutricionista.Controllers
     public class AlimentoController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly AlimentoService _alimentoService;
 
-        public AlimentoController(ApplicationDbContext context)
+        public AlimentoController(ApplicationDbContext context, AlimentoService alimentoService)
         {
             _context = context;
+            _alimentoService = alimentoService;
         }
 
         // GET: Nutricionista/Alimento
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Alimentos.Include(a => a.Nutricionista);
-            return View(await applicationDbContext.ToListAsync());
+            var alimentosDoUsuario = _alimentoService.ObterAlimentosDoUsuarioAtual();
+            return View(alimentosDoUsuario.ToList());
+            //var applicationDbContext = _context.Alimentos.Include(a => a.Nutricionista);
+            //return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Nutricionista/Alimento/Details/5

@@ -30,11 +30,6 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>
 
 builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("Admin", policy =>
-    {
-     policy.RequireRole("Admin");
-    });
-
     options.AddPolicy("Cliente", policy =>
     {
         policy.RequireRole("Cliente");
@@ -88,21 +83,40 @@ app.UseEndpoints(endpoints =>
     name: "cliente",
     pattern: "{area:exists}/{controller=Cliente}/{action=Index}/{id?}");
 
-
+    //Rotas Cliente
     endpoints.MapControllerRoute(
     name: "ClienteArea",
     pattern: "Cliente/{action=Index}/{id?}",
     defaults: new { area = "Cliente", controller = "Cliente" });
 
+
+    ////Rotas Nutricionista
     endpoints.MapControllerRoute(
-    name: "NutricionistaAlimento",
-    pattern: "Nutricionista/Alimento/{action=Index}/{id?}",
-    defaults: new { area = "Nutricionista", controller = "Alimento" });
+        name: "NutricionistaAlimentoIndex",
+        pattern: "Nutricionista/Alimento",
+        defaults: new { area = "Nutricionista", controller = "Alimento", action = "Index" });
 
     endpoints.MapControllerRoute(
-    name: "treinadorpessoal",
-    pattern: "{area:exists}/{controller=TreinadorPessoal}/{action=Index}/{id?}");
+        name: "NutricionistaAlimentoCreate",
+        pattern: "Nutricionista/Alimento/Create",
+        defaults: new { area = "Nutricionista", controller = "Alimento", action = "Create" });
 
+
+    //Rotas Treinador Pessoal
+    endpoints.MapControllerRoute(
+        name: "TreinadorPessoalExercicioIndex",
+        pattern: "Nutricionista/Alimento",
+        defaults: new { area = "TreinadorPessoal", controller = "Exercicio", action = "Index" });
+
+    endpoints.MapControllerRoute(
+        name: "TreinadorPessoalExercicioCreate",
+        pattern: "Nutricionista/Alimento/Create",
+        defaults: new { area = "TreinadorPessoal", controller = "Exercicio", action = "Create" });
+
+    // Rota para página de construção
+    endpoints.MapFallbackToController("Index", "Construction");
+
+    //Rotas default
     endpoints.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

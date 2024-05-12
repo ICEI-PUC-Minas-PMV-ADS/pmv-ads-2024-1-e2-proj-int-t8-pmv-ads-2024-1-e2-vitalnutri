@@ -1,9 +1,9 @@
 ﻿@using static VitalNutri.Helpers.NavigationIndicatorHelper;
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <a href="~/Home" class="brand-link">
-        <img src="~/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+        <img src="~/img/vital-nutri-logo.jpg" alt="VitalNutri Logo" class="brand-image img-circle elevation-3"
              style="opacity: .8">
-        <span class="brand-text font-weight-light">AdminLTE 3</span>
+        <span class="brand-text font-weight-light">VitaNutri</span>
     </a>
     <div class="sidebar">
         @if (User.Identity.IsAuthenticated)
@@ -75,21 +75,21 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a asp-controller="Nutricionistas" asp-action="Index" class="nav-link @Url.MakeActiveClass("Pacientes","index")">
+                                    <a asp-area="Nutricionista" asp-controller="Paciente" asp-action="Index" class="nav-link @Url.MakeActiveClass("Paciente", "Index")">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Pacientes</p>
+                                        <p>Paciente</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a asp-area="Nutricionista" asp-controller="Alimento" asp-action="Index" class="nav-link @Url.MakeActiveClass("Alimento", "Index")">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Alimentos</p>
+                                        <p>Alimento</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-controller="PlanoAlimentar" asp-action="Index" class="nav-link @Url.MakeActiveClass("Plano Alimentar","Index")">
+                                    <a asp-area="Nutricionista" asp-controller="PlanoAlimentar" asp-action="Index" class="nav-link @Url.MakeActiveClass("PlanoAlimentar", "Index")">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Plano Alimentar</p>
+                                        <p>PlanoAlimentar</p>
                                     </a>
                                 </li>
                             </ul>
